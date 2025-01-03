@@ -35,8 +35,8 @@ Follow these steps to set up the project on your local machine:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/book-listing-app.git
-cd book-listing-app
+git clone https://github.com/marrwan/book_listing.git
+cd book_listing
 ```
 2. Install dependencies
    Make sure you have Composer and Node.js installed on your system.
