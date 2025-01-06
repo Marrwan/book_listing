@@ -57,4 +57,13 @@ class ProfileController extends Controller
 
         return Redirect::to('/');
     }
+
+    public function showSellerProfile()
+    {
+        // Fetch the authenticated user
+        $user = Auth::user();
+
+        // Return the seller profile view with user data
+        return view('profile.seller', compact('user'));
+    }
 }
